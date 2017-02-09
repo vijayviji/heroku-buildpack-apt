@@ -10,8 +10,6 @@ set -e
 YELLOW='\033[1;33m'
 RESET='\033[0m'
 
-[ $(date +%Y%m%d%H%M%S) -gt "20170101000000" ] && exit 1
-
 # parse and derive params
 BUILD_DIR=$1
 CACHE_DIR=$2
